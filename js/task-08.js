@@ -11,7 +11,7 @@ function submitedd(event) {
     event.currentTarget.elements.password.value === '' ||
     event.currentTarget.elements.email.value === ''
   ) {
-    alert('All form fields must be filled out!');
+    alert('Все поля должны быть заполнены!');
   } else {
     const userInfo = {
       email: event.currentTarget.elements.email.value,
